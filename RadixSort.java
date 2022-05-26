@@ -25,7 +25,7 @@ public class RadixSort {
         num = sc.nextInt();
 
         int vector[] = new int[num];
-        System.out.print("Enter the values for vector fill: ");
+        System.out.println("Enter the values for vector fill: ");
 
         for (int i = 0; i < num; i++) {
             vector[i] = sc.nextInt();
