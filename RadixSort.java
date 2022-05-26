@@ -37,8 +37,8 @@ public class RadixSort {
 
     public static void radixSort(int[] vector, int num) {
 
-        int num02 = getMaxNumber(vector, num);
-        for (int pot = 1; (num / pot) > 0; pot *= 10) {
+        float num02 = getMaxNumber(vector, num);
+        for (int pot = 1; (num02 / pot) > 0; pot *= 10) {
             countSort(vector, num, pot);
         }
 
@@ -71,7 +71,7 @@ public class RadixSort {
             bucket[(vector[j] / pot) % 10]--;
         }
         for (j = 0; j < num01; j++) {
-            vector[j] = vector[j];
+            vector[j] = vector01[j];
         }
     }
     static void toPrint(int [] vector, int num)    {
