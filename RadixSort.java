@@ -21,7 +21,7 @@ public class RadixSort {
         Scanner sc = new Scanner(System.in);
 
         int num = 0;
-        System.out.print("Enter the size of vector:");
+        System.out.println("Enter the size of vector:");
         num = sc.nextInt();
 
         int vector[] = new int[num];
